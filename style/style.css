@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top left, #09203f 0%, #537895 100%);
+    height: 100vh;
+}
+
+.password-generator {
+    padding: 40px;
+    background-color: #537895;
+    color: white;
+    font-size: 20px;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.password-generator div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.password {
+    min-width: 280px;
+    background-color: #30516b;
+    color: rgb(222, 222, 222);
+    box-shadow: 1px 1px 7px #09203f;
+    border-radius: 3px;
+}
+
+.password p {
+    padding: 6px 10px;
+}
+
+.password i {
+    background-color: #051224;
+    padding: 6px 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #09203f;
+    transition: 0.5s;
+}
+
+.password i:hover {
+    background-position: right center; /**/
+    color: #fff;
+    background-color: #1b3250;
+    box-shadow: 1px 1px 15px #30516b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.password-generator button {
+    width: 100%;
+    border: none;
+    color: rgba(255, 255, 255, 0.699);
+    background-color: #30516b;
+    padding: 10px;
+    box-shadow: 1px 1px 7px #09203f;
+    border-radius: 3px;
+    background-image: linear-gradient(to right, #30516b 22%, #09203f 51%, #537895 100%);
+}
+
+.password-generator button {
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+
+.password-generator button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+input {
+    border-radius: 1px;
+    border: none;
+    background-color: #eef6fd;
+    text-align: center;
+    cursor: pointer;
+}
+
+label {
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+li {
+    cursor: pointer;
+}
